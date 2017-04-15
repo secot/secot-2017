@@ -1,0 +1,172 @@
+.header-img {
+	width: 100%;
+}
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */@import url(https://fonts.googleapis.com/css?family=Maven+Pro:400,900,700);@import url(https://fonts.googleapis.com/css?family=Lobster);*{box-sizing:border-box}html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}audio,canvas,iframe,img,svg,video{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.browserupgrade{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0}body{font-family:"Maven Pro"}.clearfix{clear:both}.grid-3{padding:0 3em}.grid-3 .row{width:70%;margin:1em auto 2em auto;text-align:center;min-height:100px}@media screen and (max-width: 1280px){.grid-3 .row{width:80%}}@media screen and (max-width: 960px){.grid-3 .row{width:85%}}@media screen and (max-width: 600px){.grid-3 .row{width:100%;min-height:70px}}.grid-3 .row .column-img-box{display:inline-block;width:30%}.grid-3 .row .column-img-box img{width:60%}@media screen and (max-width: 960px){.grid-3 .row .column-img-box img{width:70%}}@media screen and (max-width: 600px){.grid-3 .row .column-img-box img{width:80%}}.hidden{display:none !important;visibility:hidden}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}.clearfix{*zoom:1}@media print{*,*:before,*:after{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}
+/*# sourceMappingURL=main.css.map */
+/*nao procurei usar o sourcemap de css*/
+
+
+#guests .guest {
+	color: #555;
+    width: 32%;
+    display: inline-block;
+    margin-top: 3.4em;
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+}
+
+#colaboradores .colaborador {
+	color: #555;
+    width: 32%;
+    display: inline-block;
+    margin-top: 3.4em;
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+}
+@media screen and (max-width: 720px) {
+	#guests .guest {
+		width: 49%;
+	}
+	#colaboradores .colaborador {
+		width: 49%;
+	}
+}
+@media screen and (max-width: 480px) {
+	#guests .guest {
+		width: 100%;
+	}
+	#colaboradores .colaborador {
+		width: 100%;
+	}
+}
+#guests .guest h3 {
+    margin: 0;
+    padding: 1.3em 0 1em 0;
+    font-weight: 400;
+    margin: .5em;
+    font-size: 1.45em;
+}
+#guests .guest .description {
+    display: inline-block;
+    width: 85%;
+    margin: auto;
+    vertical-align: top;
+}
+#guests .guest .description .mini-cv {
+    display:none;
+}
+.guest .img-block img, .colaborador .img-block img {
+    width: 9em;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+section#schedule {
+    background-color: #ECF0F0;
+    font-family: 'Raleway', sans-serif;
+    font-size:1.15em;
+}
+section#schedule div.card {
+    background-color: white;
+    width: 80%;
+    margin: 2em auto 0 auto;
+    border: 1px solid #eee;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 3px 4px #aaa;
+    -moz-box-shadow: 0px 3px 4px #aaa;
+    box-shadow: 0px 3px 4px #aaa;
+}
+section#schedule div.card .card-content:first-child {
+    border-bottom: 1px solid #eee;
+}
+section#schedule div.card .card-content {
+    padding: 2em 2.5em;
+}
+section#schedule div.card .card-content h4 {
+    font-weight: 400;
+    font-size: 1.4em;
+}
+section#schedule div.card .card-content .icon {
+    width: 40px;
+    float: left;
+}
+.fa-clock-o::before {
+    content: "\f017";
+    font-size: 1.3em;
+}
+section#schedule div.card .card-content .events-wrap .event-line .time p {
+    text-align: right;
+    letter-spacing: -0.01em;
+    font-size: .9em;
+    margin: 0;
+}
+section#schedule div.card .card-content .events-wrap {
+    float: left;
+    width: calc(100% - 40px);
+}
+section#schedule div.card .card-content .events-wrap .event-line > * {
+    float: left;
+}
+section#schedule div.card .card-content .events-wrap .event-line:not(:first-child) {
+    margin-top: 1.2em;
+}
+section#schedule div.card .card-content .events-wrap .event-line .description {
+    padding-left: 1.3em;
+    width: calc(100% - 7.5em);
+    font-weight: 400;
+    color: #666;
+}
+section#schedule .event-line .title{
+	font-family:inherit;
+	text-align:left;
+	font-size:1em;
+}
+section#schedule .guest{
+	font-weight:bold;
+}
+section#schedule p{
+	margin:0;
+}
+#apoio .grid-3 .row .column-img-box{
+	line-height: 80px;
+}
+#apoio .grid-3 .row .column-img-box img {
+    width: 40%;
+}
+#colaboradores .colunm-colaborador{
+	width:24%;
+	display:inline-block;
+}
+@media (max-width: 992px){
+	section#schedule{
+		padding:0 !important;
+	}
+	section#schedule div.card {
+	    width: 100%;
+	}
+	section.clean div.section-wrap {
+	    width: 100%;
+	}
+	#colaboradores .colunm-colaborador{
+		width:49%;
+		display:inline-block;
+	}
+}
+@media (max-width: 769px){
+	section#schedule div.hidden > *{
+		visibility: visible;
+	}
+	section#schedule div.hidden {
+	    display: block !important;
+	    color:black;
+	}
+	#schedule .card-content div.time {
+	    display: none;
+	}
+}
