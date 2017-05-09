@@ -143,6 +143,9 @@ section#schedule p{
 	width:24%;
 	display:inline-block;
 }
+
+.top-buffer { margin-top:80px; }
+
 @media (max-width: 992px){
 	section#schedule{
 		padding:0 !important;
